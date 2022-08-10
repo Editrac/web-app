@@ -1,0 +1,1 @@
+export const avatarColors = ["#158715", "#008cb2", "#cc3e3f", "#733ecc", "#403ecc", "#bb009f", "#a1a600", "#e16c00"]

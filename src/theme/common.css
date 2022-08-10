@@ -1,0 +1,210 @@
+:root {
+  --font-regular: 14px;
+  --font-medium: 13px;
+  --font-semilarge: 16px;
+  --font-large: 18px;
+  --font-small: 12px;
+}
+
+.light-theme {
+  --accent: rgb(0, 95, 235);
+  --text-accent-button: var(--accent);
+  --accent-background: rgb(0, 95, 235);
+  --background-primary: rgb(255, 255, 255);
+  --background-secondary: rgba(0, 0, 0, 0.05);
+  --hover-grey:#f6f6f6;
+  --accent-shade: rgba(0, 95, 235, 0.07);
+
+  --bg-dark: rgb(255, 255, 255);
+  --bg: rgba(0, 0, 0, 0.05);
+  --bgsolid: rgb(247, 247, 247);
+  --bg-light: rgba(0, 0, 0, 0.08);
+  --bg-lighter: rgba(0, 0, 0, 0.1);
+  --bg-lightest: rgba(0, 0, 0, 0.14);
+  --bg-opaque:rgb(240, 240, 240);
+
+  --grey-0: rgba(0,0,0);
+  --grey-1: rgba(0, 0, 0, 0.1);
+  --grey-2: rgba(0, 0, 0, 0.2);
+  --grey-3: rgba(0, 0, 0, 0.3);
+  --grey-4: rgba(0, 0, 0, 0.4);
+  --grey-5 :rgba(0, 0, 0, 0.5);
+  
+  --slider-color: rgb(0, 95, 235);
+  --scrollbar-color: rgba(0, 0, 0, 0.1);
+  --scrollbar-border-color: rgba(0, 0, 0, 0.2);
+  --scrollbar-hover-color:rgba(0, 0, 0, 0.2);
+  --text-primary: rgb(0, 0, 0);
+  --primary-shade: rgba(0, 0, 0, 0.07);
+  --text-white: rgb(255, 255, 255);
+  --text-secondary: rgb(132, 132, 132);
+  --text-green: rgb(25, 175, 85);
+  --text-error: rgb(219, 80, 61);
+  --red-shade: rgba(219, 80, 61, 0.1);
+  --border: #e2e2e2;
+  --border-lighter: #eeeeee;
+  --border-darker: rgba(0, 0, 0, 0.15);
+  --input-background: rgba(0, 0, 0, 0.05);
+  --input-focused-background: rgba(0, 0, 0, 0.08);
+  --background-paper: rgba(255, 255, 255, 0.1);
+  --table-head-background: rgb(245, 246, 248);
+  --table-cell-background: rgba(245, 246, 248, 0.7);
+  --nav-column-card: rgba(255, 255, 255, 0.2);
+  --nav-column-card-active: rgba(0, 0, 0, 0.05);
+  --green: rgb(40, 196, 102);
+  --green-shade: rgb(25, 175, 85, 0.15);
+  --yellow: rgb(197, 161, 0);
+  --yellow-shade: rgba(255, 218, 52, 0.20);
+  --orange: rgb(242, 142, 28);
+  --orange-shade: rgba(242, 142, 28, 0.15);
+  --olive: rgb(159, 180, 21);
+  --olive-shade: rgba(159, 180, 21, 0.15);
+  --teal: rgb(0, 173, 165);
+  --teal-shade: rgba(0, 173, 165, 0.15);
+  --pink: rgb(206, 52, 139);
+  --pink-shade: rgba(206, 52, 139, 0.15);
+  --purple: rgb(147, 48, 180);
+  --purple-shade: rgba(147, 48, 180, 0.15);
+  --brown: rgb(148, 93, 56);
+  --brown-shade: rgba(148, 93, 56, 0.15);
+  --brown: rgb(148, 93, 56);
+  --brown-shade: rgba(148, 93, 56, 0.15);
+  --checkbox-unchecked: rgb(187, 187, 187);
+  --popover-hover: var(--background-secondary);
+}
+
+.dark-theme {
+  --accent: #075eff;
+  --error-red:rgb(168, 39, 39);
+  --success-green:rgb(30, 116, 87);
+  --text-accent-button: rgb(57, 136, 255);
+  --accent-background: rgb(0, 95, 235, 0.5);
+  --contrast:#fff;
+
+  --bg-dark: rgb(10, 11, 12);
+  --bg: rgba(203, 206, 255, 0.05);
+  --bgsolid: rgb(30, 30, 38);
+  --bg-light: rgba(204, 207, 255, 0.08);
+  --bg-lighter: rgba(204, 207, 255, 0.1);
+  --bg-lightest: rgba(204, 207, 255, 0.14);
+  --bg-opaque:rgb(25, 26, 31);
+  
+  /* --bg-dark:rgb(13, 14, 15);
+  --bg: rgba(205, 225, 255, 0.05);
+  --bgsolid: rgb(25, 27, 32);
+  --bg-light: rgba(205, 221, 255, 0.08);
+  --bg-lighter: rgba(205, 217, 255, 0.1);
+  --bg-lighter: rgba(205, 217, 255, 0.12);
+  --bg-opaque:rgb(37, 41, 46); */
+  
+  --accent-shade: rgba(0, 95, 235, 0.2);
+  --slider-color: var(--accent);
+  --scrollbar-color: rgba(255, 255, 255, 0.04);
+  --scrollbar-hover-color:rgba(255, 255, 255, 0.1);
+  --scrollbar-border-color: rgba(255, 255, 255, 1);
+
+  --text-primary: rgb(255, 255, 255);
+  --primary-shade: rgba(255, 255, 255);
+  --text-white: var(--text-primary);
+  --text-secondary: #848484;
+  --text-green: rgb(51, 218, 118);
+  --text-error: #ac3d2f;
+
+  --red-shade: rgba(255, 95, 74, 0.2);
+
+  --grey-0: rgba(0,0,0);
+  --grey-1: rgba(255, 255, 255, 0.1);
+  --grey-2: rgba(255, 255, 255, 0.2);
+  --grey-3: rgba(255, 255, 255, 0.3);
+  --grey-4: rgba(255, 255, 255, 0.4);
+  --grey-5 :rgba(255, 255, 255, 0.5);
+
+  --input-background: rgba(222, 231, 255, 0.07);
+  --input-focused-background: rgba(222, 231, 255, 0.15);
+  --background-paper: var(--background-secondary);
+  --table-head-background: #2f3136;
+  --table-cell-background: rgb(47, 49, 54, 0.6);
+  --nav-column-card: rgba(255, 255, 255, 0.07);
+  --nav-column-card-active: rgba(0, 0, 0, 0.05);
+  --green: rgb(51, 218, 118);
+  --green-shade: rgb(25, 175, 85, 0.15);
+  --yellow: rgb(197, 161, 0);
+  --yellow-shade: rgba(255, 218, 52, 0.20);
+  --orange: rgb(242, 142, 28);
+  --orange-shade: rgba(242, 142, 28, 0.15);
+  --olive: rgb(159, 180, 21);
+  --olive-shade: rgba(159, 180, 21, 0.15);
+  --teal: rgb(0, 173, 165);
+  --teal-shade: rgba(0, 173, 165, 0.15);
+  --pink: rgb(206, 52, 139);
+  --pink-shade: rgba(206, 52, 139, 0.15);
+  --purple: rgb(147, 48, 180);
+  --purple-shade: rgba(147, 48, 180, 0.15);
+  --brown: rgb(196, 146, 113);
+  --brown-shade: rgba(177, 121, 84, 0.2);
+  --checkbox-unchecked: #747474;
+  --popover-hover: var(--background-primary);
+}
+
+.cursor-pointer{
+  cursor: pointer !important;
+}
+
+.no-number-stepper::-webkit-outer-spin-button, .no-number-stepper::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-number-stepper[type=number] {
+  -moz-appearance: textfield;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  width: 6px;
+  height: 6px;
+  background-color: var(--scrollbar-color);
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  width: 6px;
+  height: 6px;
+  background-color: var(--scrollbar-hover-color);
+}
+
+.simplebar-scrollbar::before {
+  background-color: var(--scrollbar-color) !important;
+  box-shadow: 0 0 1px 1px var(--scrollbar-border-color) !important;
+}
+
+.simplebar-track.simplebar-vertical {
+  width: 6px !important;
+}
+
+.vjs-control-bar.hidden{
+  height: 8px !important;
+  bottom: -1px !important;
+}
+
+.vjs-control-bar.hidden .vjs-play-control,.vjs-control-bar.hidden .vjs-volume-panel,.vjs-control-bar.hidden .vjs-remaining-time,.vjs-control-bar.hidden .vjs-fullscreen-control,.vjs-control-bar.hidden .vjs-playback-rate{
+  display: none !important;
+}
+
+
+.vjs-progress-holder{
+  height: 8px !important;
+  margin:0 !important
+}
+
+.vjs-play-progress{
+  background-color: var(--accent) !important;
+}
+
+.vjs-play-progress:before{
+  display: none !important;
+}

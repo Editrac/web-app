@@ -1,0 +1,89 @@
+.tag {
+  border-radius: 5px;
+  padding: 0 6px;
+  height: 1.8rem;
+  margin-right: 6px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1em;
+}
+.tagText{
+  display: inline-flex;
+  align-items: baseline;
+  white-space: nowrap;
+}
+
+.tag:last-child {
+  margin-right: 0;
+}
+
+.spacer {
+  margin: 0 2px;
+}
+
+.medium {
+  font-size: var(--font-medium);
+}
+
+.regular {
+  font-size: var(--font-medium);
+}
+
+.grey {
+  color: (--text-primary);
+  background-color: var(--background-secondary);
+}
+.white{
+  color:rgb(255,255,255);
+  background-color: rgba(255,255,255,0.15);
+}
+.red {
+  color: rgb(235, 0, 0);
+  background-color: rgba(235, 0, 0, 0.1);
+}
+
+.blue {
+  color:var(--accent);
+  background-color: var(--accent-shade);
+}
+
+.yellow {
+  color:var(--yellow);
+  background-color: var(--yellow-shade);
+}
+
+.green {
+  color:var(--green);
+  background-color: var(--green-shade);
+}
+
+.orange {
+  color:var(--orange);
+  background-color: var(--orange-shade);
+}
+
+.olive {
+  color:var(--olive);
+  background-color: var(--olive-shade);
+}
+
+.teal {
+  color:var(--teal);
+  background-color: var(--teal-shade);
+}
+
+.pink {
+  color:var(--pink);
+  background-color: var(--pink-shade);
+}
+
+.purple {
+  color:var(--purple);
+  background-color: var(--purple-shade);
+}
+
+.brown {
+  color:var(--brown);
+  background-color: var(--brown-shade);
+}

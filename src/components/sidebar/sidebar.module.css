@@ -1,0 +1,140 @@
+.navbarContainer {
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  width: 64px;
+  padding-top: 8px;
+  background-color: var(--sidebar-color);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1000;
+}
+
+.navlinksContainer {
+  display: flex;
+  flex-direction: column;
+}
+.navbarAvatar{
+  display: flex;
+  justify-content: center;
+  margin:10px 0 20px 0;
+}
+.navLogo{
+  width:44px;
+  height: 44px;
+  border-radius: 12px;
+  box-shadow: 0 0 0 5px rgba(255,255,255,0.3);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navlink {
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: transparent;
+  line-height: 18px;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.navlink:hover {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+.activeNavlink {
+  border-left: 3px solid #fff;
+  transition: .2s ease-in-out;
+}
+
+.navicon {
+  color: var(--text-white);
+  font-size: inherit;
+}
+
+.activeNavlink .navicon {
+  transform: scale(1.2) translateX(-2px);
+  transition: transform .2s ease-in;
+}
+
+.bottomActions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+.navAvatar{
+  height: auto;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.3);
+}
+
+.themeSwitcher {
+  padding: 5px;
+  border-radius: 5px;
+  height: 26px;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.themeSwitcher:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.themeSwitcher:active {
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: 0.2s ease-in;
+  -webkit-transition: 0.2s ease-in;
+}
+
+.themeSwitcherIcon {
+  position: relative;
+  width: 16px;
+  height: 12px;
+  transition: 0.2s ease-in;
+  -webkit-transition: 0.2s ease-in;
+}
+
+.themeSwitcherIcon .front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  color: rgb(168, 172, 184);
+  z-index: 2;
+}
+
+.themeSwitcherIcon .back {
+  position: absolute;
+  top: 0;
+  left: 6px;
+  font-size: 12px;
+  color: rgb(30, 38, 61);
+  text-shadow: 0 0 4px rgb(170, 174, 187);
+  z-index: 1;
+}
+
+.darkThemeActive {
+  transform: rotateZ(180deg);
+  -webkit-transform: rotateZ(180deg);
+}
+
+.darkThemeActive .back {
+  z-index: 3;
+}

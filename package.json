@@ -1,0 +1,93 @@
+{
+  "name": "ediflo-web-app",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@clerk/clerk-react": "^1.9.0",
+    "@craco/craco": "^6.2.0",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/luxon": "^2.3.1",
+    "@types/node": "^12.0.0",
+    "@types/overlayscrollbars": "^1.12.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@uppy/core": "^2.3.1",
+    "@uppy/react": "^2.2.2",
+    "@uppy/tus": "^2.4.1",
+    "@videojs/http-streaming": "^2.14.2",
+    "aws-sdk": "^2.1177.0",
+    "classnames": "^2.3.1",
+    "dayjs": "^1.10.7",
+    "evaporate": "^2.1.4",
+    "formik": "^2.2.9",
+    "luxon": "^2.3.1",
+    "node-sass": "^5.0.0",
+    "overlayscrollbars": "^1.13.1",
+    "overlayscrollbars-react": "^0.2.2",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.4",
+    "react-query": "^3.21.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "4.0.3",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "simplebar-react": "^2.3.3",
+    "typescript": "^4.1.2",
+    "uuid": "^8.3.2",
+    "video.js": "^7.14.3",
+    "videojs-contrib-quality-levels": "^2.1.0",
+    "videojs-hls-quality-selector": "^1.1.4",
+    "videojs-youtube": "^2.6.1",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@types/evaporate": "^2.1.6",
+    "@types/react-beautiful-dnd": "^13.1.2",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/uuid": "^8.3.1",
+    "@types/video.js": "^7.3.26",
+    "@types/videojs-contrib-quality-levels": "^2.0.1",
+    "@types/videojs-hls-quality-selector": "^1.1.0",
+    "autoprefixer": "^9.8.8",
+    "axios": "^0.21.4",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}

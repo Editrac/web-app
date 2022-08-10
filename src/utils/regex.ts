@@ -1,0 +1,1 @@
+export const mobile = /^(\+?91|0)?[6789]\d{9}$/;

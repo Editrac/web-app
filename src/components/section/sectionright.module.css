@@ -1,0 +1,5 @@
+.sectionRight{
+  width:300px;
+  /* border-left: 1px solid var(--border); */
+  background-color: var(--background-secondary);
+}

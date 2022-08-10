@@ -1,0 +1,10 @@
+.volumeSlider{
+  width:0px;
+  opacity: 0;
+  transition: 0.2s;
+  transform-origin: 0%;
+}
+.volumeConrolWrap:hover .volumeSlider{
+  width: 80px;
+  opacity: 1;
+}

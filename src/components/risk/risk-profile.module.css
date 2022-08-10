@@ -1,0 +1,44 @@
+.riskTag {
+  border-radius: 5px;
+  padding: 0 6px;
+  height: 1.6rem;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1em;
+  min-width: 0px;
+}
+
+.tagText {
+  display: inline-flex;
+  align-items: baseline;
+  white-space: nowrap;
+}
+
+.spacer {
+  margin: 0 2px;
+}
+
+.red {
+  color: rgb(235, 0, 0);
+  background-color: rgba(235, 0, 0, 0.1);
+}
+
+.orange {
+  color: var(--orange);
+  background-color: var(--orange-shade);
+}
+
+.yellow {
+  color: var(--yellow);
+  background-color: var(--yellow-shade);
+}
+
+.olive {
+  color: var(--olive);
+  background-color: var(--olive-shade);
+}
+
+.green {
+  color: var(--green);
+  background-color: var(--green-shade);
+}
